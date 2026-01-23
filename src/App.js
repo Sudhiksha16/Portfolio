@@ -226,131 +226,88 @@ export default function Portfolio() {
       case 'contact':
         return (
           <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-indigo-50 py-20 px-4">
-            <div className="max-w-6xl mx-auto">
+            <div className="max-w-4xl mx-auto">
               <h2 className="text-5xl font-bold text-gray-900 mb-4">Get In Touch</h2>
               <p className="text-xl text-gray-600 mb-12">Let's connect and collaborate</p>
               
-              <div className="grid md:grid-cols-2 gap-8">
-                <div>
-                  <h3 className="text-3xl font-bold text-gray-900 mb-6">Contact Information</h3>
-                  
-                  <div className="bg-white rounded-2xl shadow-xl p-8 mb-6">
-                    <div className="space-y-6">
-                      <div className="flex items-start space-x-4">
-                        <Mail className="text-indigo-600 mt-1 flex-shrink-0" size={24} />
-                        <div>
-                          <h4 className="font-semibold text-gray-900 mb-1">Email</h4>
-                          <a href="mailto:sudhikshadk@gmail.com" className="text-indigo-600 hover:underline break-all">
-                            sudhikshadk@gmail.com
-                          </a>
-                        </div>
-                      </div>
-                      
-                      <div className="flex items-start space-x-4">
-                        <Phone className="text-indigo-600 mt-1 flex-shrink-0" size={24} />
-                        <div>
-                          <h4 className="font-semibold text-gray-900 mb-1">Phone</h4>
-                          <a href="tel:+919442212945" className="text-indigo-600 hover:underline">
-                            +91 94422 12945
-                          </a>
-                        </div>
-                      </div>
-                      
-                      <div className="flex items-start space-x-4">
-                        <MapPin className="text-indigo-600 mt-1 flex-shrink-0" size={24} />
-                        <div>
-                          <h4 className="font-semibold text-gray-900 mb-1">Location</h4>
-                          <p className="text-gray-600">Mettupalayam, Coimbatore, Tamil Nadu</p>
-                        </div>
+              <div className="mb-8">
+                <h3 className="text-3xl font-bold text-gray-900 mb-6">Contact Information</h3>
+                
+                <div className="bg-white rounded-2xl shadow-xl p-8 mb-6">
+                  <div className="space-y-6">
+                    <div className="flex items-start space-x-4">
+                      <Mail className="text-indigo-600 mt-1 flex-shrink-0" size={24} />
+                      <div>
+                        <h4 className="font-semibold text-gray-900 mb-1">Email</h4>
+                        <a href="mailto:sudhikshadk@gmail.com" className="text-indigo-600 hover:underline break-all">
+                          sudhikshadk@gmail.com
+                        </a>
                       </div>
                     </div>
-                  </div>
-
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Connect With Me</h3>
-                  <div className="bg-white rounded-2xl shadow-xl p-6">
-                    <div className="space-y-4">
-                      <a 
-                        href="https://github.com/Sudhiksha16" 
-                        target="_blank" 
-                        rel="noopener noreferrer" 
-                        className="flex items-center space-x-4 p-4 hover:bg-gray-50 rounded-lg transition-colors group border border-gray-100"
-                      >
-                        <Github className="text-gray-700 group-hover:text-indigo-600 flex-shrink-0" size={28} />
-                        <div className="min-w-0 flex-1">
-                          <h4 className="font-semibold text-gray-900">GitHub</h4>
-                          <p className="text-sm text-gray-600 truncate">@Sudhiksha16</p>
-                        </div>
-                      </a>
-                      
-                      <a 
-                        href="https://www.linkedin.com/in/sudhikshadk/" 
-                        target="_blank" 
-                        rel="noopener noreferrer" 
-                        className="flex items-center space-x-4 p-4 hover:bg-gray-50 rounded-lg transition-colors group border border-gray-100"
-                      >
-                        <Linkedin className="text-gray-700 group-hover:text-indigo-600 flex-shrink-0" size={28} />
-                        <div className="min-w-0 flex-1">
-                          <h4 className="font-semibold text-gray-900">LinkedIn</h4>
-                          <p className="text-sm text-gray-600 truncate">@sudhikshadk</p>
-                        </div>
-                      </a>
-                      
-                      <a 
-                        href="https://leetcode.com/u/Sudhiksha16/" 
-                        target="_blank" 
-                        rel="noopener noreferrer" 
-                        className="flex items-center space-x-4 p-4 hover:bg-gray-50 rounded-lg transition-colors group border border-gray-100"
-                      >
-                        <svg className="text-gray-700 group-hover:text-indigo-600 flex-shrink-0" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
-                          <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/>
-                        </svg>
-                        <div className="min-w-0 flex-1">
-                          <h4 className="font-semibold text-gray-900">LeetCode</h4>
-                          <p className="text-sm text-gray-600 truncate">@Sudhiksha16</p>
-                        </div>
-                      </a>
+                    
+                    <div className="flex items-start space-x-4">
+                      <Phone className="text-indigo-600 mt-1 flex-shrink-0" size={24} />
+                      <div>
+                        <h4 className="font-semibold text-gray-900 mb-1">Phone</h4>
+                        <a href="tel:+919442212945" className="text-indigo-600 hover:underline">
+                          +91 94422 12945
+                        </a>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start space-x-4">
+                      <MapPin className="text-indigo-600 mt-1 flex-shrink-0" size={24} />
+                      <div>
+                        <h4 className="font-semibold text-gray-900 mb-1">Location</h4>
+                        <p className="text-gray-600">Mettupalayam, Coimbatore, Tamil Nadu</p>
+                      </div>
                     </div>
                   </div>
                 </div>
 
-                <div>
-                  <h3 className="text-3xl font-bold text-gray-900 mb-6">Send Me a Message</h3>
-                  <div className="bg-white rounded-2xl shadow-xl p-8">
-                    <div className="space-y-6">
-                      <div>
-                        <label className="block text-gray-700 font-semibold mb-2">Name</label>
-                        <input
-                          type="text"
-                          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                          placeholder="Your name"
-                        />
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Connect With Me</h3>
+                <div className="bg-white rounded-2xl shadow-xl p-6">
+                  <div className="space-y-4">
+                    <a 
+                      href="https://github.com/Sudhiksha16" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="flex items-center space-x-4 p-4 hover:bg-gray-50 rounded-lg transition-colors group border border-gray-100"
+                    >
+                      <Github className="text-gray-700 group-hover:text-indigo-600 flex-shrink-0" size={28} />
+                      <div className="min-w-0 flex-1">
+                        <h4 className="font-semibold text-gray-900">GitHub</h4>
+                        <p className="text-sm text-gray-600 truncate">@Sudhiksha16</p>
                       </div>
-                      <div>
-                        <label className="block text-gray-700 font-semibold mb-2">Email</label>
-                        <input
-                          type="email"
-                          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                          placeholder="your@email.com"
-                        />
+                    </a>
+                    
+                    <a 
+                      href="https://www.linkedin.com/in/sudhikshadk/" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="flex items-center space-x-4 p-4 hover:bg-gray-50 rounded-lg transition-colors group border border-gray-100"
+                    >
+                      <Linkedin className="text-gray-700 group-hover:text-indigo-600 flex-shrink-0" size={28} />
+                      <div className="min-w-0 flex-1">
+                        <h4 className="font-semibold text-gray-900">LinkedIn</h4>
+                        <p className="text-sm text-gray-600 truncate">@sudhikshadk</p>
                       </div>
-                      <div>
-                        <label className="block text-gray-700 font-semibold mb-2">Message</label>
-                        <textarea
-                          rows="5"
-                          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 resize-none"
-                          placeholder="Your message..."
-                        ></textarea>
+                    </a>
+                    
+                    <a 
+                      href="https://leetcode.com/u/Sudhiksha16/" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="flex items-center space-x-4 p-4 hover:bg-gray-50 rounded-lg transition-colors group border border-gray-100"
+                    >
+                      <svg className="text-gray-700 group-hover:text-indigo-600 flex-shrink-0" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/>
+                      </svg>
+                      <div className="min-w-0 flex-1">
+                        <h4 className="font-semibold text-gray-900">LeetCode</h4>
+                        <p className="text-sm text-gray-600 truncate">@Sudhiksha16</p>
                       </div>
-                      <button
-                        onClick={(e) => {
-                          e.preventDefault();
-                          alert('Thank you for your message! This is a demo portfolio - in a production version, this would send your message.');
-                        }}
-                        className="w-full bg-indigo-600 text-white py-4 rounded-lg font-semibold hover:bg-indigo-700 transition-colors shadow-lg hover:shadow-xl"
-                      >
-                        Send Message
-                      </button>
-                    </div>
+                    </a>
                   </div>
                 </div>
               </div>
